@@ -1,0 +1,14 @@
+{
+  "name": "react-manual-toolchain",
+  "version": "0.0.1",
+  "description": "React 개발 환경 매뉴얼 구성 (with Webpack)",
+  "scripts": {
+    "dev": "npx live-server public --host=localhost --port=3000 --no-browser"
+  },
+  "keywords": ["react", "webpack"],
+  "author": {
+    "name": "yamoo9",
+    "email": "yamoo9@euid.dev"
+  },
+  "license": "MIT"
+}
