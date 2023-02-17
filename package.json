@@ -3,12 +3,22 @@
   "version": "0.0.1",
   "description": "React 개발 환경 매뉴얼 구성 (with Webpack)",
   "scripts": {
-    "dev": "npx live-server public --host=localhost --port=3000 --no-browser"
+    "dev": "npx live-server public --host=localhost --port=3000 --no-browser",
+    "bundle": "webpack --config ./webpack/dev.js",
+    "build": "webpack build --config ./webpack/build.js"
   },
-  "keywords": ["react", "webpack"],
+  "keywords": [
+    "react",
+    "webpack"
+  ],
   "author": {
     "name": "yamoo9",
     "email": "yamoo9@euid.dev"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "5.75.0",
+    "webpack-cli": "5.0.1",
+    "webpack-merge": "5.8.0"
+  }
 }

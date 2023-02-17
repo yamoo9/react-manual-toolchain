@@ -1,4 +1,4 @@
-import { numberWithComma } from './numberWithComma.js';
+import { numberWithComma } from './numberWithComma';
 
 export const currency = (price, currencyUnit = '원') => {
   price = numberWithComma(price);
